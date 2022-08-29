@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.overlay{
+    position: relative;
+    overflow-x: hidden;
+}
+
+.below{
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.above{
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text{
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 30px;
+    
+}
+
+.right{
+    opacity: 0.8;
+    margin-top: 132px;
+    font-weight:200px ;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.left{
+    margin-top: 92px;
+    margin-left: 220px;
+    font-weight: 600;
+font-size: 22px;
+line-height: 63px;
+}
