@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Sliding.css"
+import SlidingImg from "../../images/slidingImg.png"
 
 const Sliding = () => {
   return (
@@ -11,19 +12,19 @@ const Sliding = () => {
               <input type="radio" name='slider' id='s5' />
 
       <label htmlFor="s1" id='slide1'>
-        <img src={require("./Photo.png")}alt="" />
+        <img src={SlidingImg} alt="" />
       </label>
       <label htmlFor="s2" id='slide2'>
-        <img src={require("./Photo.png")}alt="" />
+        <img src={SlidingImg}alt="" />
       </label>
       <label htmlFor="s3" id='slide3'>
-        <img src={require("./Photo.png")}alt="" />
+        <img src={SlidingImg}alt="" />
       </label>
       <label htmlFor="s4" id='slide4'>
-        <img src={require("./Photo.png")}alt="" />
+        <img src={SlidingImg}alt="" />
       </label>
       <label htmlFor="s5" id='slide5'>
-        <img src={require("./Photo.png")}alt="" />
+        <img src={SlidingImg}alt="" />
       </label>
     </section>
   )

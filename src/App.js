@@ -4,10 +4,11 @@ import Navbar from './components/Navbar/index'
 import Footer from './components/Footer/Footer';
 import Intro from './components/Introduction/Intro';
 import Sliding from './components/Sliding/Sliding';
-import AboveFooter from './components/AboveFooter/AboveFooter';
+import Form from './components/Form/Form';
 import Who from './components/WhoWeAre/Who';
-import Different from './components/Different/Different';
-import Mission from './components/Mission/Mission';
+import Different from './components/MakeUsDifferent/MakeUsDifferent';
+import OurMission from './components/OurMission/OurMission';
+import HowItWorks from './components/HowItWorks/HowItWorks';
 
 function App() {
   return (
@@ -16,12 +17,10 @@ function App() {
      <Intro/>
      <Sliding/>
      <Different/>
-     <Mission/>
-
-
-
+     <OurMission/>
+     <HowItWorks/>
      <Who/>
-     <AboveFooter/>
+     <Form/>
      <Footer/>
      
     </div>

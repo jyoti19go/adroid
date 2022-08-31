@@ -1,14 +1,15 @@
 import React from 'react'
 import './Footer.css'
-
+import Adroid from "../../images/adroid.png"
+import Logo from "../../images/logo.png"
 
 const Footer = () => {
   return (
     <div className="main-footer">
         <div className="container">
             <div className="logo">
-                <img src={require('./Shape.png')} alt="shape" />
-                <img src={require('./Adroid.png')} alt="shape" />
+                <img src={Logo} alt="shape" />
+                <img src={Adroid} alt="shape" />
             </div>
             <div className="row">
                 {/*Col1*/}
